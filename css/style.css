@@ -130,6 +130,28 @@ header  a.cta:hover {
 main {
   color: #333;
 }
+
+/*Begin informer*/
+main .bg-gray{
+  width: 100%;
+  background-color: #d3d3d3;
+}
+
+main .informer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+main .informer h3 {
+  margin: 10px 0;
+  font-size: 1.8em;
+}
+
+main .informer p {
+  color: #808080;
+  font-size: 1.35em;
+}
+
 /* END MAIN */
 
 /* BEGIN FOOTER */

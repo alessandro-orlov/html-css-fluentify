@@ -49,7 +49,7 @@ header a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 1em;
   text-transform: uppercase;
   transition: all .2s ease;
 }
@@ -143,22 +143,23 @@ main .informer p.title-text {
   font-weight: 600;
   color: #333;
   margin: 10px 0;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 main .informer p {
   color: #808080;
-  font-size: 1.35em;
+  font-size: 1.5em;
 }
 
-/* Begin stydy-process area */
+/*  stydy-process area */
 main .study-process {
   border-bottom: 1px solid #d3d3d3;
   padding: 50px 0;
 }
 
+/* stydy-process Detail area */
 main .study-process .detail {
-  width: 20%;
+  width: 24%;
   text-align: center;
 }
 
@@ -180,7 +181,7 @@ main .study-process .detail img[alt="doc"] {
 
 main .study-process .detail h3 {
   color: #7cbb02;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 main .study-process .detail .divider {
@@ -194,15 +195,54 @@ main .study-process .detail .divider {
 }
 main .study-process .detail p {
   color: #808080;
+  font-size: 1.2em;
   line-height: 1.7em;
 }
 
 main .study-process .detail:nth-child(2) {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 14%;
+  margin-right: 14%;
 }
+
+/* personal plan area */
+main .personal-plan {
+  padding: 50px 0;
+}
+
+main .personal-plan .box-left {
+  width: 45%;
+  text-align: right;
+}
+
+main .personal-plan .box-left img[alt="mountain"] {
+  width: 100%;
+  text-align: right;
+}
+
+main .personal-plan .box-right {
+  width: 30%;
+  margin-left: 10%;
+}
+
+main .personal-plan .box-right h2 {
+  font-size: 2.3em;
+  line-height: 1.5em;
+}
+
+main .personal-plan .box-right p {
+  color: #808080;
+  line-height: 1.7em;
+  font-size: 1.2em;
+  margin: 15px 0 25px 0;
+}
+
 
 /* END MAIN */
 
 /* BEGIN FOOTER */
+footer {
+  padding: 50px 0;
+  width: 100%;
+  background-color: #d3d3d3;
+}
 /* END FOOTER */

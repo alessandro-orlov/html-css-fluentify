@@ -28,6 +28,11 @@ ul {
 .container {
   padding: 0 10%;
 }
+
+.center {
+  margin: 0 auto;
+  width: 80%;
+}
 /* END GENERAL RULES */
 
 /* BEGIN HEADER */
@@ -210,7 +215,7 @@ main .personal-plan {
 }
 
 main .personal-plan .box-left {
-  width: 45%;
+  width: 50%;
   text-align: right;
 }
 
@@ -220,8 +225,8 @@ main .personal-plan .box-left img[alt="mountain"] {
 }
 
 main .personal-plan .box-right {
-  width: 30%;
-  margin-left: 10%;
+  width: 38%;
+  margin-left: 5%;
 }
 
 main .personal-plan .box-right h2 {
@@ -241,8 +246,53 @@ main .personal-plan .box-right p {
 
 /* BEGIN FOOTER */
 footer {
-  padding: 50px 0;
+  padding: 50px 0 140px 0;
   width: 100%;
   background-color: #d3d3d3;
+}
+
+footer .box-left {
+  width: 50%;
+  text-align: left;
+}
+
+footer .box-left p {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+footer .box-right {
+  width: 50%;
+  text-align: right;
+}
+
+footer .box-right select {
+  width: 120px;
+  outline: none;
+  background-color: #d3d3d3;
+  padding: 5px;
+  margin: 0 10px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 1px solid #808080;
+
+
+}
+
+footer .box-right select option {
+  background-color: #fff;
+  line-height: 1.5em;
+}
+
+footer .box-right a.green {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  background-color: #7cbb02;
+  border-radius: 5px;
+  padding: 20px 30px;
 }
 /* END FOOTER */

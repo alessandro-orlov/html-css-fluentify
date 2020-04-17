@@ -131,18 +131,17 @@ main {
   color: #333;
 }
 
-/*Begin informer*/
-main .bg-gray{
+/* Begin informer */
+main .informer {
+  text-align: center;
+  padding: 50px 0;
   width: 100%;
   background-color: #d3d3d3;
 }
 
-main .informer {
-  text-align: center;
-  padding: 40px 0;
-}
-
-main .informer h3 {
+main .informer p.title-text {
+  font-weight: 600;
+  color: #333;
   margin: 10px 0;
   font-size: 1.8em;
 }
@@ -150,6 +149,57 @@ main .informer h3 {
 main .informer p {
   color: #808080;
   font-size: 1.35em;
+}
+
+/* Begin stydy-process area */
+main .study-process {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 50px 0;
+}
+
+main .study-process .detail {
+  width: 20%;
+  text-align: center;
+}
+
+main .study-process .detail img {
+  margin-bottom: 15px;
+}
+
+main .study-process .detail img[alt="profile"] {
+  width: 150px;
+}
+
+main .study-process .detail img[alt="computer"] {
+  width: 250px;
+}
+
+main .study-process .detail img[alt="doc"] {
+  width: 170px;
+}
+
+main .study-process .detail h3 {
+  color: #7cbb02;
+  font-size: 1.5em;
+}
+
+main .study-process .detail .divider {
+  display: inline-block;
+  width: 75px;
+  line-height: 1px;
+  color: #808080;
+  border-top: 1px solid #777;
+  margin: 15px 0;
+
+}
+main .study-process .detail p {
+  color: #808080;
+  line-height: 1.7em;
+}
+
+main .study-process .detail:nth-child(2) {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /* END MAIN */

@@ -33,6 +33,27 @@ ul {
   margin: 0 auto;
   width: 80%;
 }
+
+a.help {
+  position: fixed;
+  bottom: -10px;
+  right: 14%;
+  display: block;
+  margin: 0;
+  padding: 20px 30px 30px 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #7cbb02;
+  transition: all .2s ease;
+}
+
+a.help:hover {
+  background-color: orange;
+  margin-bottom: 10px;
+}
 /* END GENERAL RULES */
 
 /* BEGIN HEADER */
@@ -41,8 +62,8 @@ header {
   background-color: #0c325a;
   background-image: url('../img/background-header.png');
   background-repeat: no-repeat;
-  background-size: 1000px;
-  background-position: 105% 100%;
+  background-size: 1300px;
+  background-position: 110% 100%;
 }
 
 header li {
@@ -112,11 +133,12 @@ header .navigation li a.green:hover {
 /* begin teaser */
 header .teaser {
   width: 35%;
-  padding: 140px 0;
+  padding: 160px 0 220px 0;
 }
 
 header .teaser h1{
   font-size: 3em;
+  line-height: 1.5em;
 }
 header  a.cta {
   margin: 20px 0;
@@ -286,6 +308,7 @@ footer .box-right select option {
 }
 
 footer .box-right a.green {
+  text-transform: uppercase;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -294,5 +317,10 @@ footer .box-right a.green {
   background-color: #7cbb02;
   border-radius: 5px;
   padding: 20px 30px;
+  transition: all .2s ease;
+}
+
+footer .box-right a.green:hover {
+  background-color: orange;
 }
 /* END FOOTER */

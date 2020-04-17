@@ -1,0 +1,136 @@
+/* BEGIN RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* END RESET */
+
+/* BEGIN GENERAL RULES */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.col {
+  float: left;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding: 0 10%;
+}
+/* END GENERAL RULES */
+
+/* BEGIN HEADER */
+header {
+  color: #fff;
+  background-color: #0c325a;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: 105% 100%;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all .2s ease;
+}
+
+header a:hover {
+  color: orange;
+}
+
+/* begin navigation */
+header .navigation {
+  padding: 10px 0;
+}
+
+header .navigation .logo {
+  width: 12%;
+}
+
+header .navigation .menu {
+  width: 44%;
+  padding: 12px 0;
+}
+
+header .navigation .left {
+  text-align: left;
+}
+
+header .navigation .right {
+  text-align: right;
+}
+header .navigation .right li:last-child{
+  margin-right: 0;
+}
+
+header .navigation li a.empty {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+header .navigation li a.empty:hover {
+  border-color: orange;
+}
+
+header .navigation li a.green {
+  background-color: #7cbb02;
+  border-radius: 5px;
+  padding: 7px 27px;
+}
+
+header .navigation li a.green:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+/* begin teaser */
+header .teaser {
+  width: 35%;
+  padding: 140px 0;
+}
+
+header .teaser h1{
+  font-size: 3em;
+}
+header  a.cta {
+  margin: 20px 0;
+  background-color: #7cbb02;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+
+header  a.cta:hover {
+  color: #fff;
+  background-color: orange;
+}
+/* END HEADER */
+
+/* BEGIN MAIN */
+main {
+  color: #333;
+}
+/* END MAIN */
+
+/* BEGIN FOOTER */
+/* END FOOTER */

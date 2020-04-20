@@ -290,21 +290,25 @@ footer .box-right {
 }
 
 footer .box-right select {
-  width: 120px;
+  width: 170px;
   outline: none;
+  color: #9e9e9e;
   background-color: #d3d3d3;
   padding: 5px;
-  margin: 0 10px;
+  margin: 0 25px;
   font-size: 1em;
   border: none;
-  border-bottom: 1px solid #808080;
-
-
+  border-bottom: 1px solid #9e9e9e;
 }
 
 footer .box-right select option {
   background-color: #fff;
   line-height: 1.5em;
+  color: #333;
+}
+
+footer .box-right select option[disabled] {
+  color: #9e9e9e;
 }
 
 footer .box-right a.green {

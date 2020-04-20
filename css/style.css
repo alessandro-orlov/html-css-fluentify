@@ -192,18 +192,7 @@ main .study-process .detail {
 
 main .study-process .detail img {
   margin-bottom: 15px;
-}
-
-main .study-process .detail img[alt="profile"] {
-  width: 150px;
-}
-
-main .study-process .detail img[alt="computer"] {
-  width: 250px;
-}
-
-main .study-process .detail img[alt="doc"] {
-  width: 170px;
+  height: 170px;
 }
 
 main .study-process .detail h3 {
@@ -239,16 +228,12 @@ main .personal-plan {
 main .personal-plan .box-left {
   width: 50%;
   text-align: right;
-}
-
-main .personal-plan .box-left img[alt="mountain"] {
-  width: 100%;
-  text-align: right;
+  padding: 0 20px;
 }
 
 main .personal-plan .box-right {
-  width: 38%;
-  margin-left: 5%;
+  width: 40%;
+  padding: 0 20px;
 }
 
 main .personal-plan .box-right h2 {
@@ -262,7 +247,6 @@ main .personal-plan .box-right p {
   font-size: 1.2em;
   margin: 15px 0 25px 0;
 }
-
 
 /* END MAIN */
 
